@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  int N,n;
+  cout << "Введите искомое число:";
+  cin >> n ;
+     while(n!=0){
+         cout << "Введите число:";
+         cin >> N;
+         if(n==0) break;
+            if(n==N){
+               cout << "Найдено:" << N << endl;
+            }
+            else {
+                cout << "Не найдено" << endl;
+            }
+     }
+}
