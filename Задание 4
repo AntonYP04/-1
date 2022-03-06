@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int c,l=0;
+    cout << "Введите число:";
+    cin >> c;
+    for(int i=1;i<c;i++){
+        if(c%i==0)l++;
+    }   
+           if(l==1){
+                cout << "Да" << endl;
+            }
+            else{
+            
+                cout << "Нет" << endl;
+            }
+    
+            
+    return 0;
+}
