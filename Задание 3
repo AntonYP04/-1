@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int Sum=0,n;
+    while(n!=0){
+         cout << "Введите число:";
+         cin >> n;
+            if(n>0){
+               Sum+=n;
+            }
+            }
+            cout << "Сумма равна:" << Sum << endl;
+    return 0;
+}
