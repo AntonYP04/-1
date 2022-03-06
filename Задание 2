@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   double Sum=0,Sr,Ch;
+   int N;
+   cout << "Введите N:";
+   cin >> N;
+   cout << "Введите числа:";
+       for (int n=0;n<N;n++){
+            cin >> Ch;
+            Sum+= Ch;
+   }
+   Sr=Sum/N;
+   cout << "Среднее арифметическое последовательности=" << Sr << endl;
+
+    return 0;
+  
+}
